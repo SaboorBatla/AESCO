@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: gordita-bold;
+  src: url(Fonts/Gordita-Bold.woff2);
+}
+@font-face {
+  font-family: gordita-light;
+  src: url(Fonts/Gordita-Light.woff2);
+}
+@font-face {
+  font-family: gordita-medium;
+  src: url(Fonts/Gordita-Medium.woff2);
+}
+@font-face {
+  font-family: gordita-regular;
+  src: url(Fonts/Gordita-Regular.woff2);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.432);
+  font-family: gordita-medium;
+  font-size: 14px;
+}
+nav im {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  /* margin-top: 4px; */
+}
+
+nav ul li {
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #2a8fff;
+}
+
+nav ul li:hover {
+  font-family: gordita-medium;
+  color: #2a8fff;
+}
+
+nav ul li img {
+  width: 18px;
+}
+
+nav .login-section li {
+  padding: 6px;
+}
+
+.banner-area{
+    height: 60vh;
+    clip-path: ellipse(60% 80% at 50% 0%); 
+    background-color: rgb(99, 0, 228);
+    /* background-blend-mode: soft-light; */
+    background-image: url(img/Banner01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
