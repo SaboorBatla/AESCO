@@ -30,19 +30,21 @@ p {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
+  align-items: center;
+  align-content: center;
+  padding: 18px 50px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.432);
   font-family: gordita-medium;
   font-size: 14px;
 }
-nav im {
+nav img {
   width: 100%;
 }
 
 nav ul {
   display: flex;
-  align-items: center;
-  /* margin-top: 4px; */
+  align-content: center;
+  margin: 0px;
 }
 
 nav ul li {
@@ -69,13 +71,18 @@ nav ul li img {
   width: 18px;
 }
 
+nav img {
+  width: 200px;
+  
+}
+
 nav .login-section li {
   padding: 6px;
 }
 
 .banner-area {
   position: relative;
-  height: 60vh;
+  height: 40vh;
   width: 100%;
   /* clip-path: ellipse(60% 80% at 50% 0%); */
   /* background-color: rgb(99, 0, 228); */
@@ -99,7 +106,7 @@ nav .login-section li {
 .sector-container {
   height: fit-content;
   width: 100%;
-  bottom: 0;
+  bottom: 0px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -162,7 +169,7 @@ nav .login-section li {
 
 .First-Paragraph p {
   text-align: center;
-  width: 50%;
+  width: 80%;
 }
 
 .Second-Paragraph {
@@ -174,7 +181,7 @@ nav .login-section li {
 }
 .Second-Paragraph p{
   text-align: center;
-  width: 40%;
+  width: 80%;
 }
 
 .svg-size img{
@@ -208,3 +215,4 @@ h2 {
 .carousel-inner{
   border-radius: 20px !important; 
 }
+
